@@ -1,4 +1,4 @@
-# Read Me
+# PyBank 
 
 ## Introduciton
 
@@ -8,6 +8,14 @@ Ths program print the the following things based on the input file.
    * The average of the changes in Profit/Losses over the entire period
    * The greatest increase in profits (date and amount) over the entire period
    * The greatest decrease in losses (date and amount) over the entire period
+
+## The folder structure 
+
+main.ipynb - this is the main python file. 
+
+output_exporter.py - This fild contain the method to write output of the program. The reason that this function is moved to another module is to increase the code reusability. 
+
+resource - the resources directory contain all data files required to execute the programm. 
 
 ## How to run the programm
 
