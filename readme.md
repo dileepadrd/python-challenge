@@ -40,3 +40,13 @@ Reference: https://stackabuse.com/commenting-python-code/
 The output of this programmis located at ./out.txt. 
 
 Furthermore, this programm prints the output in the console too. 
+
+# PyRamen
+
+PyRamen follows the same folder structures.
+
+However, the custom module of the PyRamen is report_publisher. The reason for this is the purpose of the custom module of the PyRamen component is to publish the generated report.
+
+
+## Run the program
+To run this program, it is required to send the menu and sales data sheet file paths respectively. 
