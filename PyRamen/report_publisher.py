@@ -1,6 +1,8 @@
 # -----------------------------------------------------------
 # PyRamen
 # To write putput into a file
+# The report publisher converts the given dictionary to a string and writes it
+# It writes to both stdout and output files
 # (C) 2022 Dileep Dharmasiri, Toronto, Canada
 # email dileepadrd@gmail.com
 # -----------------------------------------------------------
@@ -12,7 +14,7 @@ def publish_report(data):
     out = ""
     for key in data:
         val = data[key]
-        out += key + str(val) + "\n"
+        out += key + " " + str(val) + "\n"
 
     # printing the output into the console
     print(out)
@@ -24,4 +26,4 @@ def publish_report(data):
     file.write(out)
     file.close()
 
-    return True 
+    return True
