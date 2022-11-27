@@ -9,6 +9,8 @@ Ths program print the the following things based on the input file.
    * The greatest increase in profits (date and amount) over the entire period
    * The greatest decrease in losses (date and amount) over the entire period
 
+> Please note that the main files are contain in both .ipynb and .py extensions. The reason for this is just for the developing convenience. Plus, both files contains the same code. For example PyBank/main.py and PyBank/main.ipynb contains the same Python code. 
+
 ## The folder structure 
 
 main.ipynb - this is the main python file. 
